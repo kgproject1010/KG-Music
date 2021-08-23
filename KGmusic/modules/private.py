@@ -55,12 +55,11 @@ async def _human_time_duration(seconds):
 )
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>👋 **Welcome** {message.from_user.first_name}**\n
-⚡ **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) Music allow you to play music on groups through the new Telegram's Voice Chats!**
+        f"""<b>🤖 **Heii** {message.from_user.first_name}**\n
+⚠️ **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) Akan Membantu Anda Untuk Meriahkan Group Anda!**
 
-💡 **Jika Kalian Tifak Mengerti Menjalankannya,Silakan Klick » 📚 Commands button.**
-
-❓ **Untuk informasi keseluruhan tentang bot, selengkapnya** /help
+⚙️ **Jika Kalian Tidak Mengerti,Silakan Klick » 📚 Commands button** Atau Gunakan '/help'
+Thanks to [KG](https://t.me/knsgnwn)
 <b>""",
 
         reply_markup=InlineKeyboardMarkup(
@@ -78,7 +77,7 @@ async def start_(client: Client, message: Message):
                         "ᴄʀᴇᴀᴛᴇᴅ ʙʏ", url=f"https://t.me/{OWNER}")
                 ],[
                     InlineKeyboardButton(
-                        "📚 ᴄᴏᴍᴍᴀɴᴅs", url=f"https://telegra.ph/PGuide-to-using-KGmusic-bot-08-13")
+                        "📚 ᴄᴏᴍᴍᴀɴᴅs", url=f"https://telegra.ph/KG-Music-08-23")
                 ],[
                     InlineKeyboardButton(
                         "•ʀᴇᴘᴏ", url=f"https://github.com/kgproject1010/KG-Music")
@@ -170,7 +169,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "📚 Panduan Bot", url="https://telegra.ph/PGuide-to-using-KGmusic-bot-08-13"
+                        "📚 Panduan Bot", url="https://telegra.ph/KG-Music-08-23"
                     )
                 ]
             ]
