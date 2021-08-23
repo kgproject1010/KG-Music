@@ -1046,8 +1046,11 @@ async def lol_cb(b, cb):
                     InlineKeyboardButton("•ᴍᴇɴᴜ", callback_data="menu"),
                     InlineKeyboardButton("•ᴄʟᴏsᴇ", callback_data="cls"),
                 ],[
-                    InlineKeyboardButton("•ɢʀᴏᴜᴘ", url=f"https://t.me/KGSupportgroup")
-                ],
+                    InlineKeyboardButton("•ɢʀᴏᴜᴘ", url=f"https://t.me/KGSupportgroup"),
+                    InlineKeyboardButton("•ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/rakasupport"),
+                ],[
+                    InlineKeyboardButton("•ᴏᴡɴᴇʀ", url=f"https://t.me/knsgnwn"),
+                ]
             ]
         )
     requested_by = useer_name
