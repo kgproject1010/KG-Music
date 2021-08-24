@@ -61,6 +61,8 @@ async def start_(client: Client, message: Message):
 ⚠️ ᴊɪᴋᴀ ᴋᴀʟɪᴀɴ ᴛɪᴅᴀᴋ ᴍᴇɴɢᴇʀᴛɪ ᴛᴇɴᴛᴀɴɢ {BOT_NAME} sɪʟᴀᴋᴀɴ ᴋʟɪᴄᴋ » 📚 ᴄᴏᴍᴍᴀɴᴅs «
 
 ❓ ᴜɴᴛᴜᴋ ɪɴғᴏʀᴍᴀsɪ ᴋᴇsᴇʟᴜʀᴜʜᴀɴ ᴛᴇɴᴛᴀɴɢ {BOT_NAME} sᴇʟᴇɴɢᴋᴀᴘɴʏᴀ » /help «
+
+ᴄʀᴇᴀᴛᴇᴅ ʙʏ [{OWNER}](https://t.me/{OWNER})
 <b>""",
 
         reply_markup=InlineKeyboardMarkup(
@@ -75,13 +77,7 @@ async def start_(client: Client, message: Message):
                         "ɢʀᴏᴜᴘ", url=f"https://t.me/{SUPPORT_GROUP}")
                 ],[
                     InlineKeyboardButton(
-                        "ᴄʀᴇᴀᴛᴇᴅ ʙʏ", url=f"https://t.me/{OWNER}")
-                ],[
-                    InlineKeyboardButton(
                         "📚 ᴄᴏᴍᴍᴀɴᴅs", url=f"https://telegra.ph/KG-Music-08-23")
-                ],[
-                    InlineKeyboardButton(
-                        "•ʀᴇᴘᴏ", url=f"https://github.com/kgproject1010/KG-Music")
                 ]
             ]
         ),
