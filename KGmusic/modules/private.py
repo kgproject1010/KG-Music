@@ -55,11 +55,12 @@ async def _human_time_duration(seconds):
 )
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>🤖 **Heii** {message.from_user.first_name}**\n
-⚠️ **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) Akan Membantu Anda Untuk Meriahkan Group Anda!**
+        f"""<b>👋 **ʜᴀʟʟᴏ** **{message.from_user.first_name}**\n
+🤖 **[{BOT_NAME}](https://t.me/{BOT_USERNAME})** ᴀᴋᴀɴ ᴍᴇᴍʙᴀɴᴛᴜ ᴋᴀʟɪᴀɴ ᴜɴᴛᴜᴋ ᴍᴇʀɪᴀʜᴋᴀɴ ɢʀᴜᴘ ᴋᴀʟɪᴀɴ!!
 
-⚙️ **Jika Kalian Tidak Mengerti,Silakan Klick » 📚 Commands button** Atau Gunakan '/help'
-Thanks to [KG](https://t.me/knsgnwn)
+⚠️ ᴊɪᴋᴀ ᴋᴀʟɪᴀɴ ᴛɪᴅᴀᴋ ᴍᴇɴɢᴇʀᴛɪ ᴛᴇɴᴛᴀɴɢ {BOT_NAME} sɪʟᴀᴋᴀɴ ᴋʟɪᴄᴋ » 📚 ᴄᴏᴍᴍᴀɴᴅs «
+
+❓ ᴜɴᴛᴜᴋ ɪɴғᴏʀᴍᴀsɪ ᴋᴇsᴇʟᴜʀᴜʜᴀɴ ᴛᴇɴᴛᴀɴɢ {BOT_NAME} sᴇʟᴇɴɢᴋᴀᴘɴʏᴀ » /help «
 <b>""",
 
         reply_markup=InlineKeyboardMarkup(
@@ -69,9 +70,9 @@ Thanks to [KG](https://t.me/knsgnwn)
                         "➕ ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴋᴇ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "•sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"), 
+                        "ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"), 
                     InlineKeyboardButton(
-                        "•sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url=f"https://t.me/{SUPPORT_GROUP}")
+                        "ɢʀᴏᴜᴘ", url=f"https://t.me/{SUPPORT_GROUP}")
                 ],[
                     InlineKeyboardButton(
                         "ᴄʀᴇᴀᴛᴇᴅ ʙʏ", url=f"https://t.me/{OWNER}")
@@ -117,11 +118,11 @@ def map(pos):
             [InlineKeyboardButton(text = 'ɴᴇxᴛ »', callback_data = "help+2")]
         ]
     elif(pos==len(tr.HELP_MSG)-1):
-        url = f"https://t.me/EXGroupSupport"
+        url = f"https://t.me/KGSupportgroup"
         button = [
             [InlineKeyboardButton("➕ Tambahkan saya ke grup anda ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-            [InlineKeyboardButton(text = 'ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ', url=f"https://t.me/rakasupport"),
-             InlineKeyboardButton(text = 'sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url=f"https://t.me/KGSupportgroup")],
+            [InlineKeyboardButton(text = 'ᴄʜᴀɴɴᴇʟ', url=f"https://t.me/rakasupport"),
+             InlineKeyboardButton(text = 'ɢʀᴏᴜᴘ', url=f"https://t.me/KGSupportgroup")],
             [InlineKeyboardButton(text = 'ᴅᴇᴠᴇʟᴏᴘᴇʀ', url=f"https://t.me/knsgnwn")]
         ]
     else:
@@ -169,7 +170,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "📚 Panduan Bot", url="https://telegra.ph/KG-Music-08-23"
+                        "📚 ᴘᴀɴᴅᴜᴀɴ ʙᴏᴛ", url="https://telegra.ph/KG-Music-08-23"
                     )
                 ]
             ]
@@ -183,15 +184,15 @@ async def help(client: Client, message: Message):
     & ~ filters.edited
 )
 async def reload(client: Client, message: Message):
-    await message.reply_text("""✅ Bot **berhasil dimulai ulang!**\n\n• **Daftar admin** telah **diperbarui**""",
+    await message.reply_text("""⚙️ ʙᴏᴛ **ʙᴇʀʜᴀsɪʟ ᴅɪᴍᴜᴀᴛ ᴜʟᴀɴɢ!**\n\n• **ᴅᴀғᴛᴀʀ ᴀᴅᴍɪɴ** ᴛᴇʟᴀʜ **ᴅɪᴘᴇʀʙᴀʀᴜɪ**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "ɢʀᴏᴜᴘ", url=f"https://t.me/KGSupportgroup"
                     ),
                     InlineKeyboardButton(
-                        "ᴄʀᴇᴀᴛᴇᴅ ʙʏ", url=f"https://t.me/{OWNER}"
+                        "ᴄʀᴇᴀᴛᴇᴅ ʙʏ", url=f"https://t.me/knsgnwn"
                     )
                 ]
             ]
@@ -201,11 +202,11 @@ async def reload(client: Client, message: Message):
 @Client.on_message(command(["ping", f"ping@{BOT_USERNAME}"]) & ~filters.edited)
 async def ping_pong(client: Client, message: Message):
     start = time()
-    m_reply = await message.reply_text("pinging...")
+    m_reply = await message.reply_text("ᴘɪɴɢɪɴɢ...")
     delta_ping = time() - start
     await m_reply.edit_text(
         "🏓 `PONG!!`\n"
-        f"⚡️ `{delta_ping * 1000:.3f} ms`"
+        f"⚡️ `{delta_ping * 1000:.3f} ᴍs`"
     )
 
 
@@ -217,6 +218,6 @@ async def get_uptime(client: Client, message: Message):
     uptime = await _human_time_duration(int(uptime_sec))
     await message.reply_text(
         "🤖 bot status:\n"
-        f"• 🚀 **uptime:** `{uptime}`\n"
-        f"• ⚡ **start time:** `{START_TIME_ISO}`"
+        f"• 🚀 **ᴜᴘᴛɪᴍᴇ:** `{uptime}`\n"
+        f"• ⚡ **sᴛᴀʀᴛ ᴛɪᴍᴇ:** `{START_TIME_ISO}`"
     )
