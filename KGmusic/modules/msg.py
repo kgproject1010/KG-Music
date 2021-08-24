@@ -20,17 +20,17 @@ class Messages():
       HELP_MSG = [
         ".",
 f"""
-Haii selamat datang kembali di KGmusic
-• KGmusic Akan Membantu Kamu Untuk Meriahkan Group/Channel Anda.
-• Assistant Music » @{ASSISTANT_NAME} «\n 
+👋 ʜᴀɪ sᴇʟᴀᴍᴀᴛ ᴅᴀᴛᴀɴɢ ᴋᴇᴍʙᴀʟɪ ᴅɪ ᴋɢ-ᴍᴜsɪᴄ
+• ᴋɢ-ᴍᴜsɪᴄ ᴀᴋᴀɴ ᴍᴇᴍʙᴀɴᴛᴜ ᴋᴀʟɪᴀɴ ᴍᴇʀᴀᴍᴀɪᴋᴀɴ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ ᴋᴀʟɪᴀɴ.
+• ᴀssɪsᴛᴀɴᴛ » @{ASSISTANT_NAME} «\n 
 """,
 
 f"""
 **Pengaturan**
 
-1. Jadikan bot sebagai admin
-2. Mulai obrolan suara / VCG
-3. Ketik `/userbotjoin` dan coba /play <nama lagu>
+• Jadikan bot sebagai admin
+• Mulai obrolan suara / VCG
+• Ketik `/userbotjoin` dan coba /play <nama lagu>
 × Jika Assistant Bot bergabung selamat menikmati musik, 
 × Jika Assistant Bot tidak bergabung Silahkan Tambahkan @{ASSISTANT_NAME} ke grup Anda dan coba lagi
 
